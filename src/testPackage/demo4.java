@@ -21,7 +21,7 @@ public class demo4 {
 	
 	@Test(groups = {"smoke"})
 	public void apiLoginHomeLoan() {
-		System.out.println("Home API Login");
+		System.out.println("Home API Login1");
 	}
 	
 	@BeforeSuite
