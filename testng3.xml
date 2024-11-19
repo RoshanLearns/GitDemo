@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<parameter name="URL" value="www.google.com"/>
+  <test name="Regression">
+	  <groups>
+		  <run>
+			  <exclude name="smoke"/>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="testPackage.IntitiateTestNG"/>
+	  <class name="testPackage.Demo2"/>
+      <class name="testPackage.demo4"/>
+      <class name="testPackage.demo3"/>
+    </classes>
+  </test> <!-- Test -->
+    
+</suite> <!-- Suite -->
