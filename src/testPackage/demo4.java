@@ -16,7 +16,7 @@ public class demo4 {
 	
 	@Test(dependsOnMethods = {"webLoginHomeLoan"})
 	public void mobileLoginHomeLoan() {
-		System.out.println("Home Mobile Login");
+		System.out.println("Home Mobile Login1");
 	}
 	
 	@Test(groups = {"smoke"})
@@ -26,7 +26,7 @@ public class demo4 {
 	
 	@BeforeSuite
 	public void Alpha() {
-		System.out.println("I am the Alpha suite");
+		System.out.println("I am the Alpha suite1");
 	}
 	
 	@AfterSuite
