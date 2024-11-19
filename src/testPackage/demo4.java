@@ -31,7 +31,7 @@ public class demo4 {
 	
 	@AfterSuite
 	public void Zeta() {
-		System.out.println("I am the Zeta suite");
+		System.out.println("I am the Zeta suite2");
 	}
 
 }
